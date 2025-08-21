@@ -1,0 +1,9 @@
+streamlit>=1.28          # For building the app UI (tested with 1.48.1)
+python-dotenv            # For environment variable management
+google-generativeai       # Gemini API client
+
+# Document Processing Dependencies
+pypdf                    # PDF text extraction
+langchain-text-splitters # Intelligent text chunking
+requests                 # Web content fetching
+beautifulsoup4           # HTML parsing and cleaning
